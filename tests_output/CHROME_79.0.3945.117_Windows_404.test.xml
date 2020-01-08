@@ -5,9 +5,9 @@
 
   <testsuite name="404.test"
     errors="0" failures="0" hostname="" id="" package="404.test" skipped="0"
-    tests="2" time="1.719" timestamp="">
+    tests="2" time="1.822" timestamp="">
   
-    <testcase name="Quando busco um título não cadastrado" classname="404.test" time="0.6640" assertions="0">
+    <testcase name="Quando busco um título não cadastrado" classname="404.test" time="0.7670" assertions="0">
     </testcase>
   
     <testcase name="Então devo ver uma mensagem de alerta" classname="404.test" time="1.055" assertions="1">

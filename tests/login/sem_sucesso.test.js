@@ -1,4 +1,7 @@
 module.exports = {
+    // '@disabled': true,
+    '@tags': ['semsucesso', '404'],
+
     'Login sem sucesso': (browser) => {
         let login = browser.page.login()
             login

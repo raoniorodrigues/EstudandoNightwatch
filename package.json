@@ -4,6 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test:login": ".\\node_modules\\.bin\\nightwatch.cmd --group login",
+    "test:nologin": ".\\node_modules\\.bin\\nightwatch.cmd --skipgroup login",
+    "test:busca": ".\\node_modules\\.bin\\nightwatch.cmd --group busca",
+    "test:404": ".\\node_modules\\.bin\\nightwatch.cmd --tag 404",
     "test": ".\\node_modules\\.bin\\nightwatch.cmd"
   },
   "keywords": [],
