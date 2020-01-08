@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="busca.test"
+    errors="0" failures="0" hostname="" id="" package="busca.test" skipped="0"
+    tests="2" time="1.716" timestamp="">
+  
+    <testcase name="Quando faço a busca pelo titulo" classname="busca.test" time="0.6480" assertions="0">
+    </testcase>
+  
+    <testcase name="Então o título buscado deve ser exibido na lista" classname="busca.test" time="1.068" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
