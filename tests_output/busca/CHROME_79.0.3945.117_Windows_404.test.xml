@@ -5,9 +5,9 @@
 
   <testsuite name="busca.404.test"
     errors="0" failures="0" hostname="" id="" package="busca" skipped="0"
-    tests="2" time="1.727" timestamp="">
+    tests="2" time="1.742" timestamp="">
   
-    <testcase name="Quando busco um título não cadastrado" classname="busca.404.test" time="0.6670" assertions="0">
+    <testcase name="Quando busco um título não cadastrado" classname="busca.404.test" time="0.6820" assertions="0">
     </testcase>
   
     <testcase name="Então devo ver uma mensagem de alerta" classname="busca.404.test" time="1.060" assertions="1">
