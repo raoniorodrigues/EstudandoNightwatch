@@ -7,7 +7,7 @@ module.exports = {
             login
             .with('raoni@praxio.com', 'pwd123')
                 .maximizeWindow()   
-                .waitForElementVisible('@formWrongId', 3000)
+                .waitForElementVisible('@formWrongId', 10000)
                 .assert.containsText('@formWrongId', 'Usuário e/ou senha inválidos', 'Teste de Login sem sucesso Passou')
         },
         'Login não informado': (browser) => {
@@ -15,7 +15,7 @@ module.exports = {
                 login
                     .maximizeWindow()
                     .navigate()
-                    .waitForElementVisible('@formLogin', 5000)
+                    .waitForElementVisible('@formLogin', 10000)
                     .click('@loginButton')
                     .assert.containsText('@formNoId', 'Opps. Cadê o email?', 'Teste de Login não informado Passou')
         }

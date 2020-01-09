@@ -37,7 +37,7 @@ module.exports = {
     'então devo ver o filme na lista': function (browser) {
         let cadastro = browser.page.cadastro()        
         cadastro
-            .waitForElementPresent('@movieLists', 5000)
+            .waitForElementPresent('@movieLists', 10000)
             .assert.containsText('@movieLists', movieData.title)
 
 
