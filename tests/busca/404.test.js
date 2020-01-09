@@ -1,4 +1,5 @@
 module.exports = {
+    '@tags': ['buscafail', 'regressivo'],
     before: function (browser) {
         let login = browser.page.login()
         login.with('raoni@praxio.com.br', 'pwd123')

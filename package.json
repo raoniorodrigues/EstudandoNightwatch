@@ -9,7 +9,9 @@
     "test:nologin": ".\\node_modules\\.bin\\nightwatch.cmd --skipgroup login",
     "test:busca": ".\\node_modules\\.bin\\nightwatch.cmd --group busca",
     "test:404": ".\\node_modules\\.bin\\nightwatch.cmd --tag 404",
-    "test": ".\\node_modules\\.bin\\nightwatch.cmd"
+    "test": ".\\node_modules\\.bin\\nightwatch.cmd",
+    "test:ci": "./node_modules/.bin/nightwatch --tag login --env=headless"
+
   },
   "keywords": [],
   "author": "",

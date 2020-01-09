@@ -3,6 +3,7 @@ import pg from '../../lib/db'
 let movieData = {}
 
 module.exports = {
+    '@tags': ['cadastro', 'regressivo'],
     before: function (browser) {
         movieData = {
             title: 'Resident Evil',
