@@ -1,8 +1,8 @@
 pipeline {
     agent {
         docker { 
-            image "papitoio/node-wd"
-    
+            image "qaninja/node-wd"
+            args "--network=skynet"
         }
     }
     stages {
