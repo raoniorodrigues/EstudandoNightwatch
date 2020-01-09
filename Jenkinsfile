@@ -14,6 +14,8 @@ pipeline {
         }
         stage('Tests') {
             steps {
+                sh "npm run docker:build"
+                sh "npm run docker:run"
                 sh "npm run test:ci"
             }
            
