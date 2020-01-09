@@ -5,12 +5,12 @@
 
   <testsuite name="busca.busca.test"
     errors="0" failures="0" hostname="" id="" package="busca" skipped="0"
-    tests="2" time="2.208" timestamp="">
+    tests="2" time="1.703" timestamp="">
   
-    <testcase name="Quando faço a busca pelo titulo" classname="busca.busca.test" time="0.6340" assertions="0">
+    <testcase name="Quando faço a busca pelo titulo" classname="busca.busca.test" time="0.6350" assertions="0">
     </testcase>
   
-    <testcase name="Então o título buscado deve ser exibido na lista" classname="busca.busca.test" time="1.574" assertions="3">
+    <testcase name="Então o título buscado deve ser exibido na lista" classname="busca.busca.test" time="1.068" assertions="3">
 
     
 
