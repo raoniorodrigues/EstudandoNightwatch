@@ -10,7 +10,7 @@
     "test:busca": ".\\node_modules\\.bin\\nightwatch.cmd --group busca",
     "test:404": ".\\node_modules\\.bin\\nightwatch.cmd --tag 404",
     "test": ".\\node_modules\\.bin\\nightwatch.cmd",
-    "test:ci": "./node_modules/.bin/nightwatch --tag login --env=headless"
+    "test:ci": "./node_modules/.bin/nightwatch --env=headless"
 
   },
   "keywords": [],
