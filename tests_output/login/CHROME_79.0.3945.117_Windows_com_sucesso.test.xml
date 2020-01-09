@@ -5,11 +5,11 @@
 
   <testsuite name="login.com_sucesso.test"
     errors="0" failures="1" hostname="" id="" package="login" skipped="0"
-    tests="1" time="16.55" timestamp="">
+    tests="1" time="15.52" timestamp="">
   
-    <testcase name="Login com sucesso" classname="login.com_sucesso.test" time="16.55" assertions="2">
+    <testcase name="Login com sucesso" classname="login.com_sucesso.test" time="15.52" assertions="2">
 
-      <failure message="Timed out while waiting for element &lt;.user .info span&gt; to be visible for 10000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not visible&#34;[0m [0;90m(10160ms)[0m">    at Object.LoginComSucesso [as Login com sucesso] (C:/QANinja/Nwatch/tests/login/com_sucesso.test.js:10:18)</failure>
+      <failure message="Timed out while waiting for element &lt;.user .info span&gt; to be visible for 10000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not visible&#34;[0m [0;90m(10174ms)[0m">    at Object.LoginComSucesso [as Login com sucesso] (C:/QANinja/Nwatch/tests/login/com_sucesso.test.js:10:18)</failure>
 
     
     </testcase>

@@ -5,9 +5,9 @@
 
   <testsuite name="login.sem_sucesso.test"
     errors="0" failures="0" hostname="" id="" package="login" skipped="0"
-    tests="2" time="6.692" timestamp="">
+    tests="2" time="5.916" timestamp="">
   
-    <testcase name="Login sem sucesso" classname="login.sem_sucesso.test" time="6.335" assertions="3">
+    <testcase name="Login sem sucesso" classname="login.sem_sucesso.test" time="5.555" assertions="3">
 
     
 
@@ -16,7 +16,7 @@
     
     </testcase>
   
-    <testcase name="Login não informado" classname="login.sem_sucesso.test" time="0.3570" assertions="2">
+    <testcase name="Login não informado" classname="login.sem_sucesso.test" time="0.3610" assertions="2">
 
     
 
