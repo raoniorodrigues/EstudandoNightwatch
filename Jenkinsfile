@@ -8,9 +8,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh "npm install"
-            }
-            
+                --entrypoint=sh "npm install"
+            }            
         }
         stage('Tests') {
             steps {
